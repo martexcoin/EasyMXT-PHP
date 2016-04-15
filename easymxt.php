@@ -38,7 +38,7 @@ $mxt = new MarteXcoin('username','password');
 $mxt = new MarteXcoin('username','password','host','port');
 // Defaults are:
 //	host = localhost
-//	port = 51990
+//	port = 51324
 //	proto = http
 
 // If you wish to make an SSL connection you can set an optional CA certificate or leave blank
@@ -87,7 +87,7 @@ class MarteXcoin {
      * @param string $proto
      * @param string $url
      */
-    function __construct($username, $password, $host = 'localhost', $port = 51990, $url = null) {
+    function __construct($username, $password, $host = 'localhost', $port = 51324, $url = null) {
         $this->username      = $username;
         $this->password      = $password;
         $this->host          = $host;
